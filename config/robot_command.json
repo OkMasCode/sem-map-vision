@@ -1,0 +1,60 @@
+{
+    "timestamp": 1770990381.4570923,
+    "prompt": "go to the sink",
+    "goal": "sink",
+    "clip_prompts": [
+        "sink",
+        "a sink",
+        "the sink"
+    ],
+    "text_embedding": null,
+    "goal_objects": [
+        {
+            "id": "sink_inst2_4558_765000000",
+            "similarity_score": 8.829465590717943,
+            "coords": {
+                "x": 8.28320117951592,
+                "y": -5.503347508346448,
+                "z": 0.836566787745389
+            }
+        }
+    ],
+    "object_similarities": [
+        {
+            "object_id": "sink_inst2_4558_765000000",
+            "similarity": 8.829465590717943
+        }
+    ],
+    "cluster_info": {
+        "cluster_id": 3,
+        "objects": [
+            "spoon",
+            "sink"
+        ],
+        "reasoning": "The goal object is a sink, which is directly in Cluster 3.",
+        "coords": {
+            "x": 8.840196552735945,
+            "y": -5.453928962829698,
+            "z": 1.02461073622103
+        },
+        "dimensions": {
+            "bounding_box": {
+                "min": {
+                    "x": 8.28320117951592,
+                    "y": -5.503347508346448
+                },
+                "max": {
+                    "x": 9.397191925955969,
+                    "y": -5.404510417312948
+                },
+                "dimensions": {
+                    "width": 1.1139907464400487,
+                    "length": 0.09883709103350036
+                }
+            },
+            "radius": 0.559183367447124
+        }
+    },
+    "action": "go_to_object",
+    "valid": true
+}
