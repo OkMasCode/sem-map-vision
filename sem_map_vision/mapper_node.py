@@ -8,7 +8,7 @@ from geometry_msgs.msg import Vector3
 from rclpy.executors import MultiThreadedExecutor
 
 from sem_map_vision.mapper import SemanticObjectMap
-from yolo11_seg_interfaces.msg import DetectedObject, SemanticObjectArray, SemanticObject
+from sem_map_interfaces.msg import DetectedObject, SemanticObjectArray, SemanticObject
 
 # -------------------- NODE -------------------- #
 

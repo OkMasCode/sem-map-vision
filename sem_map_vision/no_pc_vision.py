@@ -22,7 +22,7 @@ from time import perf_counter
 
 from ultralytics import YOLO
 
-from yolo11_seg_interfaces.msg import DetectedObject
+from sem_map_interfaces.msg import DetectedObject
 from .utils.clip_processor import CLIPProcessor
 
 

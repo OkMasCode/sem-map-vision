@@ -9,7 +9,7 @@ from std_msgs.msg import Bool
 from geometry_msgs.msg import PointStamped
 from rclpy.executors import MultiThreadedExecutor
 
-from yolo11_seg_interfaces.msg import SemanticObjectArray
+from sem_map_interfaces.msg import SemanticObjectArray
 
 # -------------------- NODE -------------------- #
 
